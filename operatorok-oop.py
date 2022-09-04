@@ -1,5 +1,3 @@
-from ast import operator
-
 class Operatorok:
     def __init__(self,sor):
         elso,operator,masodik = sor.strip().split(" ")
