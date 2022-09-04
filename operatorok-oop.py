@@ -58,7 +58,7 @@ def szamolo(a):
             eredmeny = int(a[0]) % int(a[2])
         else:
             eredmeny = "Hibás operátor!"
-    except ZeroDivisionError:                  # nagyob barokkos ༼ つ ◕_◕ ༽つ
+    except ZeroDivisionError:                  # nagyon barokkos ༼ つ ◕_◕ ༽つ
         eredmeny = "Egyéb hiba!"
     except OverflowError:
         eredmeny = "Egyéb hiba!"
